@@ -2,7 +2,7 @@ apply plugin:'com.github.dcendents.android-maven'
 apply plugin:'com.jfrog.bintray'
 version = "1.0.0"
 
-group = "com.lsh.toast-util"
+group = "com.lsh.toast"
 def username="lishuaihua"
 def _email="lsh199032@gmail.com"
 
@@ -15,7 +15,7 @@ install {
         pom {
             project {
                 packaging 'aar'
-                name "toast"
+                name "ToastUtils"
                 url siteUrl
 
                 // Set your license
@@ -79,7 +79,7 @@ bintray {
     pkg {
         userOrg="ewgcat"
         repo = 'utils'
-        name = "toast"
+        name = "ToastUtils"
         websiteUrl = siteUrl
         licenses = ['Apache-2.0']
         vcsUrl = gitUrl

@@ -4,8 +4,18 @@
 
     dependencies {
         api project(path:':toast_lib')
+        //或者
+         api   'com.lsh.toast:ToastUtils:1.0.0'
     }
-
+       allprojects {
+            repositories {
+                 google()
+                 jcenter()
+                 mavenCentral(
+                url: "https://ewgcat.bintray.com/utils/"
+              )
+        }
+}
 ### 初始化 Toast
 
     // 在 Application 中初始化

@@ -4,7 +4,9 @@ buildscript {
     repositories {
         google()
         jcenter()
-        mavenCentral()
+        mavenCentral(
+                url: "https://ewgcat.bintray.com/utils/"
+        )
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.0.1"
@@ -19,7 +21,9 @@ allprojects {
     repositories {
         google()
         jcenter()
-        mavenCentral()
+        mavenCentral(
+                url: "https://ewgcat.bintray.com/utils/"
+        )
     }
 }
 
