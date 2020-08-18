@@ -1,12 +1,11 @@
 # 吐司工具类
 
 ### 集成步骤
-
+   一、
     dependencies {
-        api project(path:':toast_lib')
-        //或者
-         api   'com.lsh.toast:ToastUtils:1.0.0'
+        api project(path:':ToastUtils')
     }
+    二、
        allprojects {
             repositories {
                  google()
@@ -15,6 +14,9 @@
                 url: "https://ewgcat.bintray.com/utils/"
               )
         }
+	 dependencies {
+       		 api   'com.lsh.toast:ToastUtils:1.0.0'
+   	 }
 }
 ### 初始化 Toast
 
