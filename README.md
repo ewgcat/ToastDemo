@@ -1,11 +1,11 @@
 # 吐司工具类
 
 ### 集成步骤
-   一、
+  ###  一、
     dependencies {
         api project(path:':ToastUtils')
     }
-    二、
+   ###  二、
        allprojects {
             repositories {
                  google()
