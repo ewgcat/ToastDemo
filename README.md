@@ -17,7 +17,7 @@
 	 dependencies {
        		 api   'com.lsh.toast:ToastUtils:1.0.0'
    	 }
-}
+
 ### 初始化 Toast
 
     // 在 Application 中初始化
