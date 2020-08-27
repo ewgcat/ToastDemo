@@ -4,6 +4,7 @@ buildscript {
     repositories {
         google()
         jcenter()
+        maven { url 'https://jitpack.io' }
         mavenCentral(
                 url: "https://ewgcat.bintray.com/utils/"
         )
@@ -24,6 +25,7 @@ allprojects {
         mavenCentral(
                 url: "https://ewgcat.bintray.com/utils/"
         )
+        maven { url 'https://jitpack.io' }
     }
 }
 
