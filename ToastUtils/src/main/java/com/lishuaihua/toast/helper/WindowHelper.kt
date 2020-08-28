@@ -24,7 +24,7 @@ internal class WindowHelper private constructor(
      */
     override fun onActivityCreated(
         activity: Activity,
-        savedInstanceState: Bundle
+        savedInstanceState: Bundle?
     ) {
         topActivity = activity
     }
